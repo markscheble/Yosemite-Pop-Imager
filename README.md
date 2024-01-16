@@ -16,6 +16,6 @@ Make sure all python files are included for dependencies.
 
 Run the application using "python gui.py".
 
-Alternatively: Use the prexisting executable "gui" in the folder dist.
+Alternatively: Use the prexisting executable "gui" application in the folder dist.
 
 
