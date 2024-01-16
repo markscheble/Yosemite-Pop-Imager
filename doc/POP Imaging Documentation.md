@@ -325,7 +325,7 @@ library and finding the ids camera device. The function then proceeds to
 set the region of interest to the maximum pixel size and allocate
 buffers for the number of images in image acquisitions. Each buffer is
 used to store a set image until it is saved. The exposure time and gain
-are then set. (Still needs to be characterized and will vary pending on
+are then set. Still needs to be characterized and will vary pending on
 the imaging hardware setup. Images are acquired at a period set by the
 function parameters. Images are acquired at a period set by function
 parameters and saved in the directory set by function parameters.
@@ -340,26 +340,21 @@ version of the open-source repo from
 <https://medium.com/@fareedkhandev/modern-gui-using-tkinter-12da0b983e22>.
 
 ![A screenshot of a computer Description automatically
-generated](./images/media/image1.png){width="6.5in"
-height="2.522222222222222in"}
+generated](./images/media/image1.png)
 
 As of 01/16/2024, this is the appearance of the gui. The gui has the
 following capabilities:
 
 -   Ability to change appearance of the gui, ![A screenshot of a
     computer Description automatically
-    generated](./images/media/image2.png){width="1.906515748031496in"
-    height="1.7085717410323709in"}
+    generated](./images/media/image2.png)
 
 -   Ability to scale the UI, ![A screenshot of a computer Description
     automatically
-    generated](./images/media/image3.png){width="2.0940419947506563in"
-    height="2.000278871391076in"}
-
+    generated](./images/media/image3.png)
 -   Set the number of wells for post-processing detection: ![A
     screenshot of a computer Description automatically
-    generated](./images/media/image4.png){width="4.13545384951881in"
-    height="2.8642136920384953in"}
+    generated](./images/media/image4.png)
 
 -   Set the Image Period (Seconds), time between images
 
@@ -370,15 +365,13 @@ following capabilities:
 -   Set the exposure time (ms) for image acquisition
 
 > ![A screenshot of a computer Description automatically
-> generated](./images/media/image5.png){width="4.445845363079615in"
-> height="2.9122615923009625in"}
+> generated](./images/media/image5.png)
 
 \*Note: the Number of Wells, Image Period (Seconds), Image Acquisitions
 functions has open dialogs which allow the user to input any valid
 number of it is not listed in the dropdown![A screenshot of a computer
 Description automatically
-generated](./images/media/image6.png){width="3.510906605424322in"
-height="1.6877351268591425in"}
+generated](./images/media/image6.png)
 
 Valid Numbers:
 
@@ -390,24 +383,20 @@ Image Acquisitions \> 0
 
 -   Toggle Post-Processing of Images acquired ![A black and white text
     Description automatically
-    generated](./images/media/image7.png){width="1.3439370078740158in"
-    height="0.5729965004374453in"}
+    generated](./images/media/image7.png)
 
 -   Toggle Log Data to excel sheet (post-process box must be toggled)
     ![A black text on a white background Description automatically
-    generated](./images/media/image8.png){width="1.4272823709536309in"
-    height="0.6042508748906387in"}
+    generated](./images/media/image8.png)
 
 -   Start Imaging with the set parameters (Number of Wells, Image Period
     (Seconds), Image Acquisitions). Will set default values if user does
-    not set. ![](./images/media/image9.png){width="2.281568241469816in"
-    height="0.5104877515310586in"}
+    not set. ![](./images/media/image9.png)
 
 -   Exit the gui
 
 ![A black and white text Description automatically generated with medium
-confidence](./images/media/image10.png){width="1.8440069991251093in"
-height="0.5625787401574803in"}
+confidence](./images/media/image10.png)
 
 A requirements.txt file has been included in the directory for all
 relevant packages and libraries.
